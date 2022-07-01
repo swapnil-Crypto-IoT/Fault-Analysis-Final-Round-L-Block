@@ -1,0 +1,334 @@
+
+ ***64 bit plaintext*** 
+
+ 00000000 00000000
+
+ ***80 bit key*** 
+
+ 0000000000000000 0000
+
+ X1 || X0: 	 00000000 00000000
+ LCS BY 8: 	 00000000 00000000
+ Faulty x: 	 00000000 00000000
+ F: KEY : 	 00000000 00000000 [K: 00000000]
+ F: SBOXin: 	 00000000 00000000
+ F: SBOX: 	 db2e714e 00000000
+ F: PBOX: 	 bed21e74 00000000
+ Round:01 C: 	 00000000 bed21e74
+====================================
+
+ X1 || X0: 	 bed21e74 00000000
+ LCS BY 8: 	 bed21e74 00000000
+ Faulty x: 	 bed21e74 00000000
+ F: KEY : 	 06d21e74 00000000 [K: b8000000]
+ F: SBOXin: 	 06d21e74 00000000
+ F: SBOX: 	 da8f68ad 00000000
+ F: PBOX: 	 afd88d6a 00000000
+ Round:02 C: 	 bed21e74 afd88d6a
+====================================
+
+ X1 || X0: 	 afd88d6a bed21e74
+ LCS BY 8: 	 afd88d6a d21e74be
+ Faulty x: 	 afd88d6a d21e74be
+ F: KEY : 	 14d88d6a d21e74be [K: bb000000]
+ F: SBOXin: 	 14d88d6a d21e74be
+ F: SBOX: 	 a0819408 d21e74be
+ F: PBOX: 	 01a84890 d21e74be
+ Round:03 C: 	 afd88d6a d3b63c2e
+====================================
+
+ X1 || X0: 	 d3b63c2e afd88d6a
+ LCS BY 8: 	 d3b63c2e d88d6aaf
+ Faulty x: 	 d3b63c2e d88d6aaf
+ F: KEY : 	 8bb63ece d88d6aaf [K: 580002e0]
+ F: SBOXin: 	 8bb63ece d88d6aaf
+ F: SBOX: 	 273cb82c d88d6aaf
+ F: PBOX: 	 7c238cb2 d88d6aaf
+ Round:04 C: 	 d3b63c2e a4aee61d
+====================================
+
+ X1 || X0: 	 a4aee61d d3b63c2e
+ LCS BY 8: 	 a4aee61d b63c2ed3
+ Faulty x: 	 a4aee61d b63c2ed3
+ F: KEY : 	 ffaee4f0 b63c2ed3 [K: 5b0002ed]
+ F: SBOXin: 	 ffaee4f0 b63c2ed3
+ F: SBOX: 	 62664f3e b63c2ed3
+ F: PBOX: 	 2666fe43 b63c2ed3
+ Round:05 C: 	 a4aee61d 905ad090
+====================================
+
+ X1 || X0: 	 905ad090 a4aee61d
+ LCS BY 8: 	 905ad090 aee61da4
+ Faulty x: 	 905ad090 aee61da4
+ F: KEY : 	 885ad1f1 aee61da4 [K: 18000161]
+ F: SBOXin: 	 885ad1f1 aee61da4
+ F: SBOX: 	 26e42e39 aee61da4
+ F: PBOX: 	 642ee923 aee61da4
+ Round:06 C: 	 905ad090 cac8f487
+====================================
+
+ X1 || X0: 	 cac8f487 905ad090
+ LCS BY 8: 	 cac8f487 5ad09090
+ Faulty x: 	 cac8f487 5ad09090
+ F: KEY : 	 31c985ea 5ad09090 [K: fb01716d]
+ F: SBOXin: 	 31c985ea 5ad09090
+ F: SBOX: 	 09189d18 5ad09090
+ F: PBOX: 	 9801d891 5ad09090
+ Round:07 C: 	 cac8f487 c2d14801
+====================================
+
+ X1 || X0: 	 c2d14801 cac8f487
+ LCS BY 8: 	 c2d14801 c8f487ca
+ Faulty x: 	 c2d14801 c8f487ca
+ F: KEY : 	 0ad03c60 c8f487ca [K: c8017461]
+ F: SBOXin: 	 0ad03c60 c8f487ca
+ F: SBOX: 	 d58eb20e c8f487ca
+ F: PBOX: 	 5ed82eb0 c8f487ca
+ Round:08 C: 	 c2d14801 962ca97a
+====================================
+
+ X1 || X0: 	 962ca97a c2d14801
+ LCS BY 8: 	 962ca97a d14801c2
+ Faulty x: 	 962ca97a d14801c2
+ F: KEY : 	 9d2c1a94 d14801c2 [K: 0b00b3ee]
+ F: SBOXin: 	 9d2c1a94 d14801c2
+ F: SBOX: 	 18bb69cd d14801c2
+ F: PBOX: 	 8b1b9d6c d14801c2
+ Round:09 C: 	 962ca97a 5a539cae
+====================================
+
+ X1 || X0: 	 5a539cae 962ca97a
+ LCS BY 8: 	 5a539cae 2ca97a96
+ Faulty x: 	 5a539cae 2ca97a96
+ F: KEY : 	 b2eb2b8c 2ca97a96 [K: e8b8b722]
+ F: SBOXin: 	 b2eb2b8c 2ca97a96
+ F: SBOX: 	 34498377 2ca97a96
+ F: PBOX: 	 49343787 2ca97a96
+ Round:10 C: 	 5a539cae 659d4d11
+====================================
+
+ X1 || X0: 	 659d4d11 5a539cae
+ LCS BY 8: 	 659d4d11 539cae5a
+ Faulty x: 	 659d4d11 539cae5a
+ F: KEY : 	 1e277d3f 539cae5a [K: 7bba302e]
+ F: SBOXin: 	 1e277d3f 539cae5a
+ F: SBOX: 	 a1bde495 539cae5a
+ F: PBOX: 	 1dab45e9 539cae5a
+ Round:11 C: 	 659d4d11 4e37ebb3
+====================================
+
+ X1 || X0: 	 4e37ebb3 659d4d11
+ LCS BY 8: 	 4e37ebb3 9d4d1165
+ Faulty x: 	 4e37ebb3 9d4d1165
+ F: KEY : 	 e66e1c13 9d4d1165 [K: a859f7a0]
+ F: SBOXin: 	 e66e1c13 9d4d1165
+ F: SBOX: 	 ca0662b0 9d4d1165
+ F: PBOX: 	 a6c0206b 9d4d1165
+ Round:12 C: 	 4e37ebb3 3b8d310e
+====================================
+
+ X1 || X0: 	 3b8d310e 4e37ebb3
+ LCS BY 8: 	 3b8d310e 37ebb34e
+ Faulty x: 	 3b8d310e 37ebb34e
+ F: KEY : 	 84d6a0e3 37ebb34e [K: bf5b91ed]
+ F: SBOXin: 	 84d6a0e3 37ebb34e
+ F: SBOX: 	 208cc110 37ebb34e
+ F: PBOX: 	 0c2810c1 37ebb34e
+ Round:13 C: 	 3b8d310e 3bc3a38f
+====================================
+
+ X1 || X0: 	 3bc3a38f 3b8d310e
+ LCS BY 8: 	 3bc3a38f 8d310e3b
+ Faulty x: 	 3bc3a38f 8d310e3b
+ F: KEY : 	 ffdbb52d 8d310e3b [K: c41816a2]
+ F: SBOXin: 	 ffdbb52d 8d310e3b
+ F: SBOX: 	 6289dde6 8d310e3b
+ F: PBOX: 	 2968d6de 8d310e3b
+ Round:14 C: 	 3bc3a38f a459d8e5
+====================================
+
+ X1 || X0: 	 a459d8e5 3bc3a38f
+ LCS BY 8: 	 a459d8e5 c3a38f3b
+ Faulty x: 	 a459d8e5 c3a38f3b
+ F: KEY : 	 dba20a1b c3a38f3b [K: 7ffbd2fe]
+ F: SBOXin: 	 dba20a1b c3a38f3b
+ F: SBOX: 	 576f79b3 c3a38f3b
+ F: PBOX: 	 7f56937b c3a38f3b
+ Round:15 C: 	 a459d8e5 bcf51c40
+====================================
+
+ X1 || X0: 	 bcf51c40 a459d8e5
+ LCS BY 8: 	 bcf51c40 59d8e5a4
+ Faulty x: 	 bcf51c40 59d8e5a4
+ F: KEY : 	 183deb53 59d8e5a4 [K: a4c8f713]
+ F: SBOXin: 	 183deb53 59d8e5a4
+ F: SBOX: 	 a6ca43d0 59d8e5a4
+ F: PBOX: 	 6aac304d 59d8e5a4
+ Round:16 C: 	 bcf51c40 3374d5e9
+====================================
+
+ X1 || X0: 	 3374d5e9 bcf51c40
+ LCS BY 8: 	 3374d5e9 f51c40bc
+ Faulty x: 	 3374d5e9 f51c40bc
+ F: KEY : 	 ec7f8412 f51c40bc [K: df0b51fb]
+ F: SBOXin: 	 ec7f8412 f51c40bc
+ F: SBOX: 	 c3939fbf f51c40bc
+ F: PBOX: 	 33c9ff9b f51c40bc
+ Round:17 C: 	 3374d5e9 c6d5bf27
+====================================
+
+ X1 || X0: 	 c6d5bf27 3374d5e9
+ LCS BY 8: 	 c6d5bf27 74d5e933
+ Faulty x: 	 c6d5bf27 74d5e933
+ F: KEY : 	 123cc1b0 74d5e933 [K: d4e97e97]
+ F: SBOXin: 	 123cc1b0 74d5e933
+ F: SBOX: 	 a4cb5e6e 74d5e933
+ F: PBOX: 	 4bacee56 74d5e933
+ Round:18 C: 	 c6d5bf27 3f790765
+====================================
+
+ X1 || X0: 	 3f790765 c6d5bf27
+ LCS BY 8: 	 3f790765 d5bf27c6
+ Faulty x: 	 3f790765 d5bf27c6
+ F: KEY : 	 0d028c1d d5bf27c6 [K: 327b8b78]
+ F: SBOXin: 	 0d028c1d d5bf27c6
+ F: SBOX: 	 d82f92b6 d5bf27c6
+ F: PBOX: 	 8fd2269b d5bf27c6
+ Round:19 C: 	 3f790765 5a6d015d
+====================================
+
+ X1 || X0: 	 5a6d015d 3f790765
+ LCS BY 8: 	 5a6d015d 7907653f
+ Faulty x: 	 5a6d015d 7907653f
+ F: KEY : 	 07c5fe0a 7907653f [K: 5da8ff57]
+ F: SBOXin: 	 07c5fe0a 7907653f
+ F: SBOX: 	 dd121848 7907653f
+ F: PBOX: 	 d2d18814 7907653f
+ Round:20 C: 	 5a6d015d abd6ed2b
+====================================
+
+ X1 || X0: 	 abd6ed2b 5a6d015d
+ LCS BY 8: 	 abd6ed2b 6d015d5a
+ Faulty x: 	 abd6ed2b 6d015d5a
+ F: KEY : 	 9969a5e7 6d015d5a [K: 32bf48cc]
+ F: SBOXin: 	 9969a5e7 6d015d5a
+ F: SBOX: 	 1c08cd1b 6d015d5a
+ F: PBOX: 	 c810dbc1 6d015d5a
+ Round:21 C: 	 abd6ed2b a511869b
+====================================
+
+ X1 || X0: 	 a511869b abd6ed2b
+ LCS BY 8: 	 a511869b d6ed2bab
+ Faulty x: 	 a511869b d6ed2bab
+ F: KEY : 	 21d43be8 d6ed2bab [K: 84c5bd73]
+ F: SBOXin: 	 21d43be8 d6ed2bab
+ F: SBOX: 	 f987b311 d6ed2bab
+ F: PBOX: 	 97f831b1 d6ed2bab
+ Round:22 C: 	 a511869b 41151a1a
+====================================
+
+ X1 || X0: 	 41151a1a a511869b
+ LCS BY 8: 	 41151a1a 11869ba5
+ Faulty x: 	 41151a1a 11869ba5
+ F: KEY : 	 936ab2d5 11869ba5 [K: d27fa8cf]
+ F: SBOXin: 	 936ab2d5 11869ba5
+ F: SBOX: 	 1e04d784 11869ba5
+ F: PBOX: 	 e41074d8 11869ba5
+ Round:23 C: 	 41151a1a f596ef7d
+====================================
+
+ X1 || X0: 	 f596ef7d 41151a1a
+ LCS BY 8: 	 f596ef7d 151a1a41
+ Faulty x: 	 f596ef7d 151a1a41
+ F: KEY : 	 c632896b 151a1a41 [K: 33a46616]
+ F: SBOXin: 	 c632896b 151a1a41
+ F: SBOX: 	 7acf9503 151a1a41
+ F: PBOX: 	 af7c5390 151a1a41
+ Round:24 C: 	 f596ef7d ba6649d1
+====================================
+
+ X1 || X0: 	 ba6649d1 f596ef7d
+ LCS BY 8: 	 ba6649d1 96ef7df5
+ Faulty x: 	 ba6649d1 96ef7df5
+ F: KEY : 	 13b8f29e 96ef7df5 [K: a9debb4f]
+ F: SBOXin: 	 13b8f29e 96ef7df5
+ F: SBOX: 	 ae3117cc 96ef7df5
+ F: PBOX: 	 e1a37c1c 96ef7df5
+ Round:25 C: 	 ba6649d1 774c01e9
+====================================
+
+ X1 || X0: 	 774c01e9 ba6649d1
+ LCS BY 8: 	 774c01e9 6649d1ba
+ Faulty x: 	 774c01e9 6649d1ba
+ F: KEY : 	 14986521 6649d1ba [K: 63d464c8]
+ F: SBOXin: 	 14986521 6649d1ba
+ F: SBOX: 	 a0a13de9 6649d1ba
+ F: PBOX: 	 01aad93e 6649d1ba
+ Round:26 C: 	 774c01e9 67e30884
+====================================
+
+ X1 || X0: 	 67e30884 774c01e9
+ LCS BY 8: 	 67e30884 4c01e977
+ Faulty x: 	 67e30884 4c01e977
+ F: KEY : 	 3ed00225 4c01e977 [K: 59330aa1]
+ F: SBOXin: 	 3ed00225 4c01e977
+ F: SBOX: 	 018e77e4 4c01e977
+ F: PBOX: 	 1e08747e 4c01e977
+ Round:27 C: 	 67e30884 52099d09
+====================================
+
+ X1 || X0: 	 52099d09 67e30884
+ LCS BY 8: 	 52099d09 e3088467
+ Faulty x: 	 52099d09 e3088467
+ F: KEY : 	 51543880 e3088467 [K: 035da589]
+ F: SBOXin: 	 51543880 e3088467
+ F: SBOX: 	 49e7bb7e e3088467
+ F: PBOX: 	 974ebeb7 e3088467
+ Round:28 C: 	 52099d09 74463ad0
+====================================
+
+ X1 || X0: 	 74463ad0 52099d09
+ LCS BY 8: 	 74463ad0 099d0952
+ Faulty x: 	 74463ad0 099d0952
+ F: KEY : 	 7a745fb3 099d0952 [K: 0e326563]
+ F: SBOXin: 	 7a745fb3 099d0952
+ F: SBOX: 	 b597fa60 099d0952
+ F: PBOX: 	 57b9a0f6 099d0952
+ Round:29 C: 	 74463ad0 5e24a9a4
+====================================
+
+ X1 || X0: 	 5e24a9a4 74463ad0
+ LCS BY 8: 	 5e24a9a4 463ad074
+ Faulty x: 	 5e24a9a4 463ad074
+ F: KEY : 	 82a1f9ae 463ad074 [K: dc85500a]
+ F: SBOXin: 	 82a1f9ae 463ad074
+ F: SBOX: 	 2465155c 463ad074
+ F: PBOX: 	 45265c15 463ad074
+ Round:30 C: 	 5e24a9a4 031c8c61
+====================================
+
+ X1 || X0: 	 031c8c61 5e24a9a4
+ LCS BY 8: 	 031c8c61 24a9a45e
+ Faulty x: 	 031c8c61 24a9a45e
+ F: KEY : 	 73ce485e 24a9a45e [K: 70d2c43f]
+ F: SBOXin: 	 73ce485e 24a9a45e
+ F: SBOX: 	 be160bdc 24a9a45e
+ F: PBOX: 	 e6b1bc0d 24a9a45e
+ Round:31 C: 	 031c8c61 c2181853
+====================================
+
+ X1 || X0: 	 c2181853 031c8c61
+ LCS BY 8: 	 c2181853 1c8c6103
+ injected! 
+
+ Faulty x: 	 40181853 1c8c6103
+ F: KEY : 	 7c2aab26 1c8c6103 [K: 3c32b375]
+ F: SBOXin: 	 7c2aab26 1c8c6103
+ F: SBOX: 	 b3b4c3ea 1c8c6103
+ F: PBOX: 	 34bb3ace 1c8c6103
+ Round:32 C: 	 40181853 28375bcd
+====================================
+
+
+
+ Final C: 	 40181853 28375bcd 
